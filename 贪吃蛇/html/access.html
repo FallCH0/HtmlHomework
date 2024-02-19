@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H5贪吃蛇</title>
+    <link rel="stylesheet" href="..\css\index.css">
+</head>
+<body>
+
+    <div id="box"><!--内容区域-->
+        <canvas id="SnackArea">
+
+        </canvas><!--画布标签-->
+       <div id="toolbar"><!--工具栏-->
+           <div id="GameScore">00000</div>
+           <div id="GameTime">00000</div>
+           <div id="buttons"></div>
+                <button id="start" onclick="start();"></button>
+                <button id="pause" onclick="pause();"></button>
+       </div>
+       <div id="gameover" class="gaming"></div>
+    </div>
+<audio src="..\audio\boing3.wav" controls preload="auto" id="overmusic"></audio>
+<audio src="..\audio\Cut_01.mp3" controls preload="auto" id="bgmusic" loop></audio>
+<audio src="..\audio\si.mp3" controls preload="auto" id="addmusic"></audio>
+    <script src="..\js\Track.js"></script>
+    <script src="..\js\SnackPart.js"></script><!--按顺序不然类读不出来-->
+    <script src="..\js\index.js"></script>
+</body>
+</html>

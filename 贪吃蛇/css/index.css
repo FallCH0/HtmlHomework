@@ -1,0 +1,78 @@
+#box{
+    width: 654px;
+    height: 446px;
+    background:url(../image/bg.png);
+    margin:auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+#toolbar{
+    width: 654px;
+    height: 36px;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    bottom: 0;
+    background: url(../image/toolbar1.png) no-repeat center;
+}
+#toolbar div{
+    float:left;
+    color: aliceblue;
+    padding-top: 4px;
+}
+#GameScore{
+margin-left: 50px;
+}
+#GameTime{
+    margin-left: 225px;
+    }
+#buttons{
+    margin-left: 130px;
+}
+
+#start{
+    background: url(../image/start.png) no-repeat center;
+    background-size: cover;
+    width: 60px;
+    height: 25px;
+    border: none;
+}
+#pause{
+    background: url(../image/pause.png) no-repeat center;
+    background-size: cover;
+    width: 60px;
+    height: 25px;
+    border: none;
+}
+#SnackArea{
+    width: 600px;
+    height: 360px;
+    margin:auto;
+    position: absolute;
+    left: 5px;
+    top: 0;
+    right: 0;
+    bottom: 20px;
+}
+#gameover{
+    background: url(../image/gameover.jpg) no-repeat center;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    
+}
+.gaming{
+    display: none;
+}
+.over{
+    display: block;
+}
